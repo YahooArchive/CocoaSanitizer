@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DumpClassNames/DumpClassNames.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThreadAnalyzer/ThreadAnalyzer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:AssignChecker/AssignChecker.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp.xcodeproj">
+   </FileRef>
+</Workspace>

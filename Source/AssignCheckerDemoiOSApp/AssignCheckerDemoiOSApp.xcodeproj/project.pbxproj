@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062839171900766700315170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 062839151900766700315170 /* InfoPlist.strings */; };
+		062839191900766700315170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 062839181900766700315170 /* main.m */; };
+		0628391D1900766700315170 /* BMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0628391C1900766700315170 /* BMPAppDelegate.m */; };
+		062839201900766700315170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0628391E1900766700315170 /* Main.storyboard */; };
+		062839231900766700315170 /* BMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062839221900766700315170 /* BMPViewController.m */; };
+		062839251900766700315170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062839241900766700315170 /* Images.xcassets */; };
+		062839361900766700315170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 062839341900766700315170 /* InfoPlist.strings */; };
+		062839381900766700315170 /* AssignCheckerDemoiOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062839371900766700315170 /* AssignCheckerDemoiOSAppTests.m */; };
+		06283952190077DB00315170 /* BMPAssignChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06283951190077DB00315170 /* BMPAssignChecker.m */; };
+		06590C301901A968000C9984 /* BMPSampleTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 06590C2F1901A968000C9984 /* BMPSampleTableViewDataSource.m */; };
+		3C8C6D68196F451000C4935B /* BMPInstanceWithSetterRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C6D63196F451000C4935B /* BMPInstanceWithSetterRecord.m */; };
+		3C8C6D69196F451000C4935B /* BMPPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C6D65196F451000C4935B /* BMPPropertyInfo.m */; };
+		3C8C6D6A196F451000C4935B /* BMPPropertyValueRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C6D67196F451000C4935B /* BMPPropertyValueRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0628392F1900766700315170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062839011900766700315170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062839081900766700315170;
+			remoteInfo = AssignCheckerDemoiOSApp;
+		};
+		3C8C6D6B196F467500C4935B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062839011900766700315170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062839081900766700315170;
+			remoteInfo = AssignCheckerDemoiOSApp;
+		};
+		3C8C6D6D196F467500C4935B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062839011900766700315170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062839081900766700315170;
+			remoteInfo = AssignCheckerDemoiOSApp;
+		};
+		3C8C6D6F196F468300C4935B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062839011900766700315170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062839081900766700315170;
+			remoteInfo = AssignCheckerDemoiOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062839091900766700315170 /* AssignCheckerDemoiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignCheckerDemoiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062839141900766700315170 /* AssignCheckerDemoiOSApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssignCheckerDemoiOSApp-Info.plist"; sourceTree = "<group>"; };
+		062839161900766700315170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		062839181900766700315170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0628391A1900766700315170 /* AssignCheckerDemoiOSApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssignCheckerDemoiOSApp-Prefix.pch"; sourceTree = "<group>"; };
+		0628391B1900766700315170 /* BMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMPAppDelegate.h; sourceTree = "<group>"; };
+		0628391C1900766700315170 /* BMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPAppDelegate.m; sourceTree = "<group>"; };
+		0628391F1900766700315170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062839211900766700315170 /* BMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMPViewController.h; sourceTree = "<group>"; };
+		062839221900766700315170 /* BMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPViewController.m; sourceTree = "<group>"; };
+		062839241900766700315170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0628392A1900766700315170 /* AssignCheckerDemoiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignCheckerDemoiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062839331900766700315170 /* AssignCheckerDemoiOSAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssignCheckerDemoiOSAppTests-Info.plist"; sourceTree = "<group>"; };
+		062839351900766700315170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		062839371900766700315170 /* AssignCheckerDemoiOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignCheckerDemoiOSAppTests.m; sourceTree = "<group>"; };
+		06283951190077DB00315170 /* BMPAssignChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPAssignChecker.m; sourceTree = "<group>"; };
+		06590C2E1901A968000C9984 /* BMPSampleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPSampleTableViewDataSource.h; sourceTree = "<group>"; };
+		06590C2F1901A968000C9984 /* BMPSampleTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPSampleTableViewDataSource.m; sourceTree = "<group>"; };
+		3C8C6D61196F451000C4935B /* BMPAssignChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPAssignChecker.h; sourceTree = "<group>"; };
+		3C8C6D62196F451000C4935B /* BMPInstanceWithSetterRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPInstanceWithSetterRecord.h; sourceTree = "<group>"; };
+		3C8C6D63196F451000C4935B /* BMPInstanceWithSetterRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPInstanceWithSetterRecord.m; sourceTree = "<group>"; };
+		3C8C6D64196F451000C4935B /* BMPPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPPropertyInfo.h; sourceTree = "<group>"; };
+		3C8C6D65196F451000C4935B /* BMPPropertyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPPropertyInfo.m; sourceTree = "<group>"; };
+		3C8C6D66196F451000C4935B /* BMPPropertyValueRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPPropertyValueRecord.h; sourceTree = "<group>"; };
+		3C8C6D67196F451000C4935B /* BMPPropertyValueRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPPropertyValueRecord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062839061900766700315170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062839271900766700315170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062839001900766700315170 = {
+			isa = PBXGroup;
+			children = (
+				0628394E190077BD00315170 /* Dependencies */,
+				062839121900766700315170 /* AssignCheckerDemoiOSApp */,
+				062839311900766700315170 /* AssignCheckerDemoiOSAppTests */,
+				0628390A1900766700315170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0628390A1900766700315170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062839091900766700315170 /* AssignCheckerDemoiOSApp.app */,
+				0628392A1900766700315170 /* AssignCheckerDemoiOSAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062839121900766700315170 /* AssignCheckerDemoiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				0628391E1900766700315170 /* Main.storyboard */,
+				0628391B1900766700315170 /* BMPAppDelegate.h */,
+				0628391C1900766700315170 /* BMPAppDelegate.m */,
+				062839211900766700315170 /* BMPViewController.h */,
+				062839221900766700315170 /* BMPViewController.m */,
+				06590C2E1901A968000C9984 /* BMPSampleTableViewDataSource.h */,
+				06590C2F1901A968000C9984 /* BMPSampleTableViewDataSource.m */,
+				062839241900766700315170 /* Images.xcassets */,
+				062839131900766700315170 /* Supporting Files */,
+			);
+			name = AssignCheckerDemoiOSApp;
+			path = AssignCheckerDemoiOSApp;
+			sourceTree = "<group>";
+		};
+		062839131900766700315170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				062839141900766700315170 /* AssignCheckerDemoiOSApp-Info.plist */,
+				062839151900766700315170 /* InfoPlist.strings */,
+				062839181900766700315170 /* main.m */,
+				0628391A1900766700315170 /* AssignCheckerDemoiOSApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		062839311900766700315170 /* AssignCheckerDemoiOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				062839371900766700315170 /* AssignCheckerDemoiOSAppTests.m */,
+				062839321900766700315170 /* Supporting Files */,
+			);
+			name = AssignCheckerDemoiOSAppTests;
+			path = AssignCheckerDemoiOSAppTests;
+			sourceTree = "<group>";
+		};
+		062839321900766700315170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				062839331900766700315170 /* AssignCheckerDemoiOSAppTests-Info.plist */,
+				062839341900766700315170 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0628394E190077BD00315170 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				0628394F190077CC00315170 /* AssignChecker */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		0628394F190077CC00315170 /* AssignChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C6D61196F451000C4935B /* BMPAssignChecker.h */,
+				3C8C6D62196F451000C4935B /* BMPInstanceWithSetterRecord.h */,
+				3C8C6D63196F451000C4935B /* BMPInstanceWithSetterRecord.m */,
+				3C8C6D64196F451000C4935B /* BMPPropertyInfo.h */,
+				3C8C6D65196F451000C4935B /* BMPPropertyInfo.m */,
+				3C8C6D66196F451000C4935B /* BMPPropertyValueRecord.h */,
+				3C8C6D67196F451000C4935B /* BMPPropertyValueRecord.m */,
+				06283951190077DB00315170 /* BMPAssignChecker.m */,
+			);
+			name = AssignChecker;
+			path = ../AssignChecker/AssignChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062839081900766700315170 /* AssignCheckerDemoiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0628393B1900766700315170 /* Build configuration list for PBXNativeTarget "AssignCheckerDemoiOSApp" */;
+			buildPhases = (
+				062839051900766700315170 /* Sources */,
+				062839061900766700315170 /* Frameworks */,
+				062839071900766700315170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssignCheckerDemoiOSApp;
+			productName = AssignCheckerDemoiOSApp;
+			productReference = 062839091900766700315170 /* AssignCheckerDemoiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		062839291900766700315170 /* AssignCheckerDemoiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0628393E1900766700315170 /* Build configuration list for PBXNativeTarget "AssignCheckerDemoiOSAppTests" */;
+			buildPhases = (
+				062839261900766700315170 /* Sources */,
+				062839271900766700315170 /* Frameworks */,
+				062839281900766700315170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062839301900766700315170 /* PBXTargetDependency */,
+				3C8C6D6C196F467500C4935B /* PBXTargetDependency */,
+				3C8C6D6E196F467500C4935B /* PBXTargetDependency */,
+				3C8C6D70196F468300C4935B /* PBXTargetDependency */,
+			);
+			name = AssignCheckerDemoiOSAppTests;
+			productName = AssignCheckerDemoiOSAppTests;
+			productReference = 0628392A1900766700315170 /* AssignCheckerDemoiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062839011900766700315170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BMP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yahoo;
+				TargetAttributes = {
+					062839291900766700315170 = {
+						TestTargetID = 062839081900766700315170;
+					};
+				};
+			};
+			buildConfigurationList = 062839041900766700315170 /* Build configuration list for PBXProject "AssignCheckerDemoiOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 062839001900766700315170;
+			productRefGroup = 0628390A1900766700315170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062839081900766700315170 /* AssignCheckerDemoiOSApp */,
+				062839291900766700315170 /* AssignCheckerDemoiOSAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062839071900766700315170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062839251900766700315170 /* Images.xcassets in Resources */,
+				062839171900766700315170 /* InfoPlist.strings in Resources */,
+				062839201900766700315170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062839281900766700315170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062839361900766700315170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062839051900766700315170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8C6D68196F451000C4935B /* BMPInstanceWithSetterRecord.m in Sources */,
+				0628391D1900766700315170 /* BMPAppDelegate.m in Sources */,
+				062839231900766700315170 /* BMPViewController.m in Sources */,
+				3C8C6D6A196F451000C4935B /* BMPPropertyValueRecord.m in Sources */,
+				062839191900766700315170 /* main.m in Sources */,
+				3C8C6D69196F451000C4935B /* BMPPropertyInfo.m in Sources */,
+				06283952190077DB00315170 /* BMPAssignChecker.m in Sources */,
+				06590C301901A968000C9984 /* BMPSampleTableViewDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062839261900766700315170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062839381900766700315170 /* AssignCheckerDemoiOSAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062839301900766700315170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062839081900766700315170 /* AssignCheckerDemoiOSApp */;
+			targetProxy = 0628392F1900766700315170 /* PBXContainerItemProxy */;
+		};
+		3C8C6D6C196F467500C4935B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062839081900766700315170 /* AssignCheckerDemoiOSApp */;
+			targetProxy = 3C8C6D6B196F467500C4935B /* PBXContainerItemProxy */;
+		};
+		3C8C6D6E196F467500C4935B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062839081900766700315170 /* AssignCheckerDemoiOSApp */;
+			targetProxy = 3C8C6D6D196F467500C4935B /* PBXContainerItemProxy */;
+		};
+		3C8C6D70196F468300C4935B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062839081900766700315170 /* AssignCheckerDemoiOSApp */;
+			targetProxy = 3C8C6D6F196F468300C4935B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		062839151900766700315170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062839161900766700315170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0628391E1900766700315170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0628391F1900766700315170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		062839341900766700315170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062839351900766700315170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062839391900766700315170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0628393A1900766700315170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0628393C1900766700315170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = AssignCheckerDemoiOSApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0628393D1900766700315170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = AssignCheckerDemoiOSApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0628393F1900766700315170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssignCheckerDemoiOSApp.app/AssignCheckerDemoiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AssignCheckerDemoiOSAppTests/AssignCheckerDemoiOSAppTests-Info.plist";
+				PRODUCT_NAME = AssignCheckerDemoiOSAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		062839401900766700315170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AssignCheckerDemoiOSApp.app/AssignCheckerDemoiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AssignCheckerDemoiOSApp/AssignCheckerDemoiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "AssignCheckerDemoiOSAppTests/AssignCheckerDemoiOSAppTests-Info.plist";
+				PRODUCT_NAME = AssignCheckerDemoiOSAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062839041900766700315170 /* Build configuration list for PBXProject "AssignCheckerDemoiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062839391900766700315170 /* Debug */,
+				0628393A1900766700315170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0628393B1900766700315170 /* Build configuration list for PBXNativeTarget "AssignCheckerDemoiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0628393C1900766700315170 /* Debug */,
+				0628393D1900766700315170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0628393E1900766700315170 /* Build configuration list for PBXNativeTarget "AssignCheckerDemoiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0628393F1900766700315170 /* Debug */,
+				062839401900766700315170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062839011900766700315170 /* Project object */;
+}

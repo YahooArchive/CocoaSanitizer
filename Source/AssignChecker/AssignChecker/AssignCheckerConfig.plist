@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Immutable classes</key>
+	<array>
+		<string>NSNumber</string>
+		<string>NSString</string>
+		<string>NSSet</string>
+		<string>NSArray</string>
+		<string>NSOrderedSet</string>
+		<string>NSURL</string>
+		<string>NSPointerArray</string>
+		<string>NSMapTable</string>
+		<string>NSDictionary</string>
+		<string>NSValue</string>
+		<string>NSDate</string>
+		<string>NSError</string>
+		<string>NSIndexPath</string>
+		<string>NSIndexSet</string>
+		<string>NSURLRequest</string>
+		<string>UIImage</string>
+	</array>
+	<key>Thread safe classes</key>
+	<array>
+		<string>NSCache</string>
+		<string>_*</string>
+		<string>AF*</string>
+		<string>CR*</string>
+	</array>
+	<key>Consider immutable classes to be thread safe</key>
+	<true/>
+	<key>Classes to dealloc check</key>
+	<dict>
+		<key>Check all classes in local image</key>
+		<true/>
+		<key>Classes to check in external images</key>
+		<array>
+			<string>NSNumber</string>
+			<string>NSArray</string>
+			<string>NSValue</string>
+			<string>NSDate</string>
+			<string>NSSet</string>
+			<string>NSMutableSet</string>
+			<string>NSOrderedSet</string>
+			<string>NSMutableOrderedSet</string>
+			<string>NSMapTable</string>
+			<string>NSPointerArray</string>
+			<string>NSDictionary</string>
+			<string>NSMutableDictionary</string>
+			<string>NSArray</string>
+			<string>NSMutableArray</string>
+			<string>NSURL</string>
+			<string>UITableView</string>
+			<string>UITableViewCell</string>
+			<string>UICollectionView</string>
+			<string>UIViewController</string>
+			<string>UICollectionViewLayout</string>
+			<string>NSURLRequest</string>
+			<string>NSMutableURLRequest</string>
+			<string>NSURLConnection</string>
+		</array>
+	</dict>
+</dict>
+</plist>
