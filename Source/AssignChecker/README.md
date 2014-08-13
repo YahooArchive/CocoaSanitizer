@@ -14,10 +14,8 @@ This kind of error can be fixed in the following ways:
 * Only supports having a single command active at any time
 
 ## Installation
-1. Download the 'CocoaSanitizer/Release/AssignChecker' folder (downloading the project source is totally optional)
-2. Rename the folder to 'cocoasanitizer'
-3. Copy the 'cocoasanitizer' folder to /usr/local/lib
-4. Add the following line to your _~/.lldbinit_ file. If it doesn't exist, create it.
+1. Download the 'CocoaSanitizer/Release/AssignChecker' folder, save to /usr/local/lib/cocoasanitizer
+2. Add the following line to your _~/.lldbinit_ file. If it doesn't exist, create it.
 
 ```bash
 command script import /usr/local/lib/cocoasanitizer/lldbassignchecker.py
