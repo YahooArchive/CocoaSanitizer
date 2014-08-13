@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06708B2D199BF3BC00D6CF2B /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CDCD2E4195CBD4E0090B6A3 /* README.md */; };
 		3C60F65F195359DB00C8F24A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C60F65E195359DB00C8F24A /* main.cpp */; };
 		3C6DCB55195C9646001391F7 /* TAPolicyChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DCB53195C9646001391F7 /* TAPolicyChecker.cpp */; };
 		3C6DCB5B195C99FB001391F7 /* TAParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DCB59195C99FB001391F7 /* TAParser.cpp */; };
@@ -25,6 +26,7 @@
 			dstPath = "$(PROJECT_DIR)/../../Release/ThreadAnalyzer";
 			dstSubfolderSpec = 0;
 			files = (
+				06708B2D199BF3BC00D6CF2B /* README.md in CopyFiles */,
 				3CA50AD6196DD092005E0C7E /* message_tracker.d in CopyFiles */,
 				3CA50AD5196DCE46005E0C7E /* functionWhiteList.txt in CopyFiles */,
 				3CA50AD4196DCE42005E0C7E /* classWhiteList.txt in CopyFiles */,

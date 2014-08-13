@@ -90,4 +90,3 @@ NSXMLParser
 NSXPCConnection
 SDImageCache
 SDWebImageDownloader
-YI13NSQLiteBuffer
