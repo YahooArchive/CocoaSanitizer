@@ -37,4 +37,4 @@ While building from source is completely optional, you can do so by downloading 
 
 ## Contact
 
-[Brian Tunning](http://backyard.yahoo.com/tools/g/employee/profile?user_id=btunning) (iOS Enigneer)<br />
+[Brian Tunning](mailto:btunning@yahoo-inc.com)<br />
