@@ -38,3 +38,4 @@ While building from source is completely optional, you can do so by downloading 
 ## Contact
 
 [Brian Tunning](mailto:btunning@yahoo-inc.com)<br />
+[Kalpesh Padia](mailto:kpadia@ncsu.edu)
