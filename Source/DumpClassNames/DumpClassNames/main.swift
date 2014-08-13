@@ -76,7 +76,7 @@ func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
     
     // match
     regEx.enumerateMatchesInString(otoolOutput, options:nil, range:all, usingBlock:{
-        (result:NSTextCheckingResult!, flags:NSMatchingFlags, stop:UnsafePointer<ObjCBool>) in
+        (result:NSTextCheckingResult!, flags:NSMatchingFlags, stop:CMutablePointer<ObjCBool>) in
         
         // TODO: improve this once there's a clear way to get a substring from a Swift String instance
         let classNameRange = result.rangeAtIndex(classNameRangeIndex)
@@ -129,7 +129,7 @@ func main()
     let sortedClassNames:NSArray = (classNames.allObjects as NSArray).sortedArrayUsingComparator(comparator)
     
     // output to stream
-    for className in sortedClassNames {
+    for className : AnyObject in sortedClassNames {
         println(className)
     }
 }
