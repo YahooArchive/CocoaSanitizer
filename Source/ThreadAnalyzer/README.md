@@ -40,17 +40,17 @@ traceAndAnalyze.sh {-p pid | -P application_name.app} [-n niceValue] [-c classWh
 	* The default value for nice is 10
 
 ####Steps to run
-1. Create a breakpoint in the main() of your iOS project
-2. Launch the application in simulator, it should immediately pause at the breakpoint
-3. Open a terminal window to execute the shell script from the release directory, and continue the execution of your app in XCode. Example:
+* Create a breakpoint in the main() of your iOS project
+* Launch the application in simulator, it should immediately pause at the breakpoint
+* Open a terminal window to execute the shell script from the release directory, and continue the execution of your app in XCode. Example:
 
 ```
 $./traceAndAnalyze.sh -P "Y\! Finance.app" -n20 -c moduleWhiteList.txt -f functionWhiteList.txt -u finance_classnames.txt -b 32 -s 20
 ```
 
-4. At this point the trace will be active.  Go ahead and 'continue' past the breakpoint, and exercise your application.  The resulting report data will only be as good as the tests you perform, so try to test a good amount of functionality in your app.
-5. When you're done exercising the app, go ahead and 'stop' the app in the debugger.
-6. At this point the script should begin generating the report based on the trace data (which could take awhile)
+* At this point the trace will be active.  Go ahead and 'continue' past the breakpoint, and exercise your application.  The resulting report data will only be as good as the tests you perform, so try to test a good amount of functionality in your app.
+* When you're done exercising the app, go ahead and 'stop' the app in the debugger.
+* At this point the script should begin generating the report based on the trace data (which could take awhile)
 
 ###Output
 The output will be in the form of a .html file and a summary (.txt) file, both created in the same directory from which you ran the shell script.
