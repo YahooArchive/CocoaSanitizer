@@ -48,6 +48,10 @@ traceAndAnalyze.sh {-p pid | -P application_name.app} [-n niceValue] [-c classWh
 $./traceAndAnalyze.sh -P "Y\! Finance.app" -n20 -c moduleWhiteList.txt -f functionWhiteList.txt -u finance_classnames.txt -b 32 -s 20
 ```
 
+4. At this point the trace will be active.  Go ahead and 'continue' past the breakpoint, and exercise your application.  The resulting report data will only be as good as the tests you perform, so try to test a good amount of functionality in your app.
+5. When you're done exercising the app, go ahead and 'stop' the app in the debugger.
+6. At this point the script should begin generating the report based on the trace data (which could take awhile)
+
 ###Output
 The output will be in the form of a .html file and a summary (.txt) file, both created in the same directory from which you ran the shell script.
 
