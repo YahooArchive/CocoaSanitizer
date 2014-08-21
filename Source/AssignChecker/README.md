@@ -25,7 +25,7 @@ The commands will be available the next time `Xcode` starts.
 
 ## Usage
 ### Activating 
-* Build for the simulator, in 32-bit mode
+* Build for the simulator, in 64-bit mode
 * Put a breakpoint in your application's did finish launch method.
 * When you stop in the debugger, type one of the commands to activate the various tools:
 
