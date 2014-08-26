@@ -1,4 +1,3 @@
-/* 
 Software License Agreement (BSD License)
 ========================================
 
@@ -28,10 +27,3 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
-
-objc$target::-*:entry
-/ arg0 != 0x0 /
-{
-	printf("%u %i %i %08x %s %s\n", timestamp, tid, ustackdepth, arg0, probemod, probefunc);
-}
