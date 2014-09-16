@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		065688F1196782FE0024BAF8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065688F0196782FE0024BAF8 /* main.swift */; };
-		3C266BC919706172009B4C9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3C266BC819706172009B4C9F /* README.md */; };
 		3C9B6B10196F4C26004D723D /* DumpClassNames in CopyFiles */ = {isa = PBXBuildFile; fileRef = 065688ED196782FE0024BAF8 /* DumpClassNames */; };
 /* End PBXBuildFile section */
 
@@ -123,7 +122,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C266BC919706172009B4C9F /* README.md in Sources */,
 				065688F1196782FE0024BAF8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +164,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				METAL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
