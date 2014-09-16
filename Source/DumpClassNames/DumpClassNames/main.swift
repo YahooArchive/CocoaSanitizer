@@ -20,7 +20,11 @@ func executableFileNameFromAppFilePath(appFilePath:String) -> String?
     
     // trim the trailing extension
     let charCount = countElements(lastComponent)
-    let withoutExtension = lastComponent.substringToIndex(charCount - 4)
+    
+    var index: String.Index = lastComponent.startIndex
+    advance(index, charCount - 4)
+    
+    let withoutExtension = lastComponent.substringToIndex(index)
     
     return withoutExtension
 }
@@ -56,7 +60,7 @@ func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
     let inputAsNSString:NSString = otoolOutput
     
     // make a range across the string
-    let all = NSMakeRange(0, otoolOutput.utf16count)
+    let all = NSMakeRange(0, otoolOutput.utf16Count)
     
     // create a pattern
     //                  0         1    2       3        4     5    6
@@ -66,7 +70,7 @@ func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
     let regEx:NSRegularExpression = NSRegularExpression(pattern: pattern, options: nil, error: &parseRegexError)
     
     // fail if we were unable to setup the regex
-    if (parseRegexError) {
+    if ((parseRegexError) != nil) {
         println(object: STDERR_FILENO, "unable to parse regex: \(parseRegexError!.localizedFailureReason)")
         return nil
     }
@@ -74,9 +78,8 @@ func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
     // set up an array for sorting
     let classNames:NSMutableSet = NSMutableSet()
     
-    // match
     regEx.enumerateMatchesInString(otoolOutput, options:nil, range:all, usingBlock:{
-        (result:NSTextCheckingResult!, flags:NSMatchingFlags, stop:CMutablePointer<ObjCBool>) in
+        (result:NSTextCheckingResult!, flags:NSMatchingFlags, stop:UnsafeMutablePointer<ObjCBool>) in
         
         // TODO: improve this once there's a clear way to get a substring from a Swift String instance
         let classNameRange = result.rangeAtIndex(classNameRangeIndex)
@@ -109,7 +112,7 @@ func main()
     }
     
     // fail if we can't build a path to the exe
-    if (!executableFilePath) {
+    if (executableFilePath == nil) {
         println(object: STDERR_FILENO, "cannot build path to executable.")
         return
     }
