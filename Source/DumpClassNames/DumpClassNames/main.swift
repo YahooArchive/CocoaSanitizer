@@ -21,8 +21,8 @@ func executableFileNameFromAppFilePath(appFilePath:String) -> String?
     // trim the trailing extension
     let charCount = countElements(lastComponent)
     
-    var index: String.Index = lastComponent.startIndex
-    advance(index, charCount - 4)
+    var index: String.Index = lastComponent.endIndex
+    index = advance(index, -4)
     
     let withoutExtension = lastComponent.substringToIndex(index)
     
