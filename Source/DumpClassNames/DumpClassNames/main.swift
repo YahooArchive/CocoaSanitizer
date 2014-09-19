@@ -52,7 +52,7 @@ func objcOutputFromExecutableFile(filePath:String) -> String
     task.launch()
     task.waitUntilExit()
     
-    return NSString(data: data, encoding: NSUTF8StringEncoding)
+    return NSString(data: data, encoding: NSUTF8StringEncoding)!
 }
 
 func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
@@ -67,7 +67,7 @@ func classNamesFromOToolOutput(otoolOutput:String) -> NSSet!
     let pattern = "(Meta Class)(\n.*){0,10}(\n[\t ]+)(name )(.* )(.*)"
     let classNameRangeIndex = 6
     var parseRegexError : NSError?
-    let regEx:NSRegularExpression = NSRegularExpression(pattern: pattern, options: nil, error: &parseRegexError)
+    let regEx:NSRegularExpression = NSRegularExpression(pattern: pattern, options: nil, error: &parseRegexError)!
     
     // fail if we were unable to setup the regex
     if ((parseRegexError) != nil) {
