@@ -24,6 +24,8 @@ AFHTTPRequestOperation
 AFURLConnectionOperation
 BKSProcessAssertion
 CFXPreferencesSource
+FBSWorkspaceClient
+FBSWorkspace
 NSArray
 NSAssertionHandler
 NSAttributedString
